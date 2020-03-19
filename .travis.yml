@@ -2,4 +2,4 @@ os: osx
 language: swift
 osx_image: xcode11.3
 script:
-  - xcodebuild -scheme Reddit-macOS build
+  - xcodebuild -scheme Reddit-macOS CODE_SIGNING_REQUIRED=NO build
