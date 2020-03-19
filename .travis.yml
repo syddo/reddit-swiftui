@@ -1,5 +1,6 @@
-os: osx
-language: swift
+language:
+  - swift
 osx_image: xcode11.3
-script:
-  - xcodebuild -scheme Reddit-macOS CODE_SIGNING_REQUIRED=NO build
+xcode_project: Reddit.xcodeproj
+xcode_scheme: Reddit-macOS
+xcode_destination: platform=macOS
